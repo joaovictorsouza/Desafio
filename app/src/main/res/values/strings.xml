@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Desafio Soluevo</string>
+    <string name="frase_inserida">Frase inserida:</string>
+    <string name="ocorr_ncia_de_palavras">Ocorrência de palavras:</string>
+    <string name="digite_uma_frase">Digite uma frase</string>
+    <string name="mostrar_repeticao">Mostrar repetição de palavras</string>
+    <string name="voltar">Voltar</string>
+</resources>
