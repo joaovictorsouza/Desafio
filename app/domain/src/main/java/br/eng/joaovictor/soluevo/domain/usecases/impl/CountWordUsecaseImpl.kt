@@ -11,7 +11,8 @@ import javax.inject.Singleton
 class CountWordUsecaseImpl @Inject constructor() : CountWordUsecase {
     override fun countWords(sentence: String): Flow<List<WordCountItem>> = flow {
         val regex = Regex("\\W+")
-        val wordList = sentence.replace("\n", " ")
+        val wordList = sentence.lowercase()
+            .replace("\n", " ")
             .replace("\t", " ")
             .trim()
             .split(regex)
